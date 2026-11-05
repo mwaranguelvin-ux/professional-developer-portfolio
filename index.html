@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Junior Full-Stack Software Developer Portfolio">
+    <title>Developer Portfolio | Full-Stack Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                dev<span>.</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle"
+                            aria-label="Toggle color theme">
+                        ☾
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, WORLD! I'M</p>
+
+                <h1>
+                    Your Name
+                    <span>Full-Stack Developer</span>
+                </h1>
+
+                <p class="hero-description">
+                    I build responsive websites and web applications
+                    with clean code, thoughtful design, and practical
+                    solutions to real-world problems.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/YOUR_USERNAME"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/YOUR_USERNAME"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-card">
+                    <div class="code-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <p>developer.js</p>
+                    </div>
+
+                    <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Your Name"</span>,
+  role: <span class="code-green">"Full-Stack Developer"</span>,
+  location: <span class="code-green">"Kenya"</span>,
+
+  skills: [
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"React"</span>,
+    <span class="code-green">"Python"</span>,
+    <span class="code-green">"Django"</span>
+  ],
+
+  learning: <span class="code-green">"Every day"</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Building my future, one line of code at a time.</h3>
+
+                    <p>
+                        I'm a junior full-stack software developer
+                        based in Kenya. I completed a six-month
+                        software engineering bootcamp at Moringa School.
+                    </p>
+
+                    <p>
+                        I enjoy building web applications, solving
+                        programming problems, and learning how
+                        technology can make everyday tasks easier.
+                    </p>
+
+                    <p>
+                        I'm currently expanding my skills in Python,
+                        Django, SQL, MongoDB, and PHP while building
+                        projects that demonstrate my abilities.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-stat">
+                        <h3>6 Months</h3>
+                        <p>Software Engineering Training</p>
+                    </div>
+
+                    <div class="about-stat">
+                        <h3>Full-Stack</h3>
+                        <p>Frontend & Backend Development</p>
+                    </div>
+
+                    <div class="about-stat">
+                        <h3>Always Learning</h3>
+                        <p>Building and improving every day</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>Technical Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>Frontend</h3>
+                        <p>HTML5 · CSS3 · JavaScript · React</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Backend</h3>
+                        <p>Python · Django · Node.js · PHP</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Databases</h3>
+                        <p>SQL · PostgreSQL · MySQL · MongoDB</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Tools</h3>
+                        <p>Git · GitHub · VS Code · Postman</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section container" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">MY RECENT WORK</p>
+                <h2>Featured Projects</h2>
+                <p>Projects that demonstrate my development skills.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-number">01</div>
+
+                    <div class="project-content">
+                        <p class="project-type">Frontend Development</p>
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            A responsive personal portfolio website
+                            showcasing my skills, projects, and
+                            developer journey.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://github.com/YOUR_USERNAME"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+
+                    <div class="project-content">
+                        <p class="project-type">JavaScript Application</p>
+                        <h3>Task Manager</h3>
+
+                        <p>
+                            A task management application for
+                            creating, organizing, and tracking
+                            daily activities.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                            <span>Local Storage</span>
+                        </div>
+
+                        <a href="https://github.com/YOUR_USERNAME"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Coming Soon ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+
+                    <div class="project-content">
+                        <p class="project-type">Backend Development</p>
+                        <h3>Django Blog API</h3>
+
+                        <p>
+                            A backend application with user
+                            authentication, blog posts, and
+                            REST API endpoints.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>SQL</span>
+                        </div>
+
+                        <a href="https://github.com/YOUR_USERNAME"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Coming Soon ↗
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container contact-content">
+                <p class="eyebrow">LET'S CONNECT</p>
+
+                <h2>Have a project in mind?</h2>
+
+                <p>
+                    I'm open to junior developer opportunities,
+                    collaborations, and interesting projects.
+                </p>
+
+                <a href="mailto:YOUR_EMAIL@example.com"
+                   class="btn btn-primary">
+                    Get In Touch
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                © <span id="year"></span> Your Name.
+                Built with HTML, CSS, and JavaScript.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
